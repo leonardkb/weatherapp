@@ -1,0 +1,112 @@
+body{
+  background-image: url("images/landscape-1844226_1280.png");
+  
+  
+}
+
+
+.text
+{
+  margin-top: 50%;
+  text-align: center;
+  color:#ECF2FF;
+  font-family: 'Poppins', sans-serif;
+  box-shadow:  -13px -13px 20px #373144;
+}
+
+
+.wrapper
+{
+  position: absolute;
+  left:40%;
+  top:20%;
+  background-image:url("images/landscape-1844226_1280.png") ;
+  max-width: 350px;
+    min-height: 350px;
+    margin: 50px auto;
+    padding: 40px 30px 30px 30px;
+    background-color:#BFACE2;
+    border-radius: 15px;
+    box-shadow: 13px 13px 20px #2B3467 ,-13px -13px 20px #BFACE2;
+}
+
+.wrapper input
+{
+  margin-top: 10%;
+  display: block;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 5px;
+    outline: none;
+    border: none; 
+    background-color: rgba(0,0,0,.3);
+    border-bottom: solid 2px rgb(44, 44, 44);
+    border-radius: 10px 0 10px 0;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
+
+.wrapper button
+{
+  margin-top: 10%;
+  display: block;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 5px;
+    outline: none;
+    border: none; 
+    background-color: rgba(0,0,0,.3);
+    border-bottom: solid 2px rgb(44, 44, 44);
+    border-radius: 10px 0 10px 0;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
+
+.wrapper .error {
+  color: white;
+  font-size: 14px;
+}
+
+.icon {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.location {
+  padding-bottom: 15px;
+  text-align: center;
+  color: #2B3467;
+  line-height: 1.6;
+}
+
+.location .city {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.current {
+  width: 100%;
+  position: relative;
+  padding-top: 10px;
+  color: #2B3467;
+  text-align: left;
+}
+
+.current::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: white;
+}
+
+.current > * {
+  padding-bottom: 10px;
+}
+
